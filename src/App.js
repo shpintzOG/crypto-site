@@ -1,3 +1,4 @@
+import { FaDiscord, FaReddit, FaTelegramPlane } from "react-icons/fa";
 import banner from './pics/banner.jpg'
 import cryptoLogo from './pics/crypto-com.png'
 import cryptoDido from './pics/crypto-dido.jpg'
@@ -48,15 +49,21 @@ function App() {
 
     <div className='crypto-socials'>
       <h3>Join the community channels</h3>
-      <ul>
+      <ul className="crypto-social-links">
         <li>
-          <a>Telegram</a>
+          <a href="#" target="_blank" rel='noreferrer' >
+            <FaTelegramPlane />
+          </a>
         </li>
         <li>
-          <a>Discord</a>
+          <a href="#" target="_blank" rel='noreferrer'>
+            <FaDiscord />
+          </a>
         </li>
         <li>
-          <a>Reddit</a>
+          <a href="#" target="_blank" rel='noreferrer'>
+            <FaReddit />
+          </a>
         </li>
       </ul>
     </div>

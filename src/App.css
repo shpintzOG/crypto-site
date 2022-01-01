@@ -95,3 +95,40 @@
   height: 100%;
   border-radius: 5px;
 }
+
+/* Crypto Socials */
+.crypto-socials{
+  width: 100%;
+  padding: 5px;
+  background-color:#000036;
+  color: #fff;
+  text-align: center;
+}
+
+.crypto-socials h3{
+  font-size: 1.7rem;
+}
+
+.crypto-social-links{
+  width: 500px;
+  margin: 10px auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crypto-social-links li{
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+.crypto-social-links li a{
+  font-size: 1.5rem;
+  color: #000;
+  width: 5px;
+  height: 5px;
+}
+.crypto-social-links li a svg{
+  width: 100%;
+  height: 100%;
+}
