@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/crypto-site/static/css/main.9a41e04c.css",
-    "main.js": "/crypto-site/static/js/main.33c9b5d0.js",
+    "main.css": "/crypto-site/static/css/main.0ddefe12.css",
+    "main.js": "/crypto-site/static/js/main.7b84c452.js",
     "static/media/crypto-com.png": "/crypto-site/static/media/crypto-com.e5a6c1e58b191c33561c.png",
     "static/media/banner.jpg": "/crypto-site/static/media/banner.d32de2fdbf82e56b06c9.jpg",
     "static/media/crypto-dido.jpg": "/crypto-site/static/media/crypto-dido.c83a12935ab71b3ff779.jpg",
     "index.html": "/crypto-site/index.html",
-    "main.9a41e04c.css.map": "/crypto-site/static/css/main.9a41e04c.css.map",
-    "main.33c9b5d0.js.map": "/crypto-site/static/js/main.33c9b5d0.js.map"
+    "main.0ddefe12.css.map": "/crypto-site/static/css/main.0ddefe12.css.map",
+    "main.7b84c452.js.map": "/crypto-site/static/js/main.7b84c452.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a41e04c.css",
-    "static/js/main.33c9b5d0.js"
+    "static/css/main.0ddefe12.css",
+    "static/js/main.7b84c452.js"
   ]
 }
