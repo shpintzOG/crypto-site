@@ -10,6 +10,7 @@
   height: 720px;
 }
 
+
 .App .banner img{
   width: 100%;
   height: 100%;
@@ -32,10 +33,19 @@
 
 .description p{
   padding-top: 10px;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
 }
 
-.description strong:last-child{
+.description h6{
+  display: inline-block;
   margin-top: 6px;
+  padding: 3.5px;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .links{
@@ -131,4 +141,11 @@
 .crypto-social-links li a svg{
   width: 100%;
   height: 100%;
+}
+
+/* Iphone screen */
+@media (max-width: 375px) {
+  .App .banner{
+    height: 350px;
+  }
 }
