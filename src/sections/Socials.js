@@ -7,7 +7,7 @@ function Socials() {
       <h3>Join the community channels</h3>
       <ul className="crypto-social-links">
         <li>
-          <a href="#" target="_blank" rel='noreferrer' >
+          <a href="https://t.me/+V6MuxAOE8UGn_Msk" target="_blank" rel='noreferrer' >
             <FaTelegramPlane />
           </a>
         </li>

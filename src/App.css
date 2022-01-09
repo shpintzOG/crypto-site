@@ -48,14 +48,16 @@
   text-decoration: underline;
 }
 
+/* Links */
 .links{
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  /* background-color: aliceblue; */
 }
 
 
@@ -115,37 +117,76 @@
   text-align: center;
 }
 
-.crypto-socials h3{
+.crypto-socials h3,
+.forum h3{
+  padding-top: 5px;
   font-size: 1.7rem;
+  text-transform: capitalize;
 }
 
 .crypto-social-links{
-  width: 500px;
+  width: 37.5%;
   margin: 10px auto;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.crypto-social-links li{
-  padding: 10px;
-  background-color: yellow;
-  border-radius: 5px;
-}
+
 .crypto-social-links li a{
-  font-size: 1.5rem;
-  color: #000;
-  width: 5px;
-  height: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  color: yellow;
+  width: 40px;
+  height: 40px;
 }
+.crypto-social-links li a:hover{
+  color:dodgerblue;
+}
+
 .crypto-social-links li a svg{
   width: 100%;
   height: 100%;
 }
 
+/* Forum */
+.forum{
+  padding-top: 10px;
+  background-color: rgb(39, 36, 36);
+  color: #fff;
+  text-align: center;
+}
+
+.forum form{
+  padding: 10px;
+}
+.forum form input{
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.forum form button{
+  font-size: 1.5rem;
+  padding: 7px;
+  background-color: #000036;
+  color: #fff;
+  border: none;
+}
+.forum form button:hover{
+  background-color: dodgerblue;
+}
+
+
+
 /* Iphone screen */
 @media (max-width: 375px) {
   .App .banner{
     height: 350px;
+  }
+  .crypto-social-links{
+    width: 75%;
+  }
+  .forum form button{
+    margin-top: 10px;
+    width: 100%;
   }
 }
